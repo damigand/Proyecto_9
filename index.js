@@ -18,4 +18,6 @@ browserPromise.then(async (browser) => {
             console.log('Data scucessfully written to products.json');
         }
     });
+
+    browser.close();
 });

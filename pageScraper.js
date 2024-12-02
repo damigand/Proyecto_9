@@ -40,7 +40,7 @@ const scraper = {
                     try {
                         prodObj['format'] = await product.$eval('.datos .format', (text) => text.textContent.trim());
                     } catch (error) {
-                        console.log('producto sin formato');
+                        //producto sin formato.
                     }
 
                     //tags (sin gluten, sin grasa, etc).
